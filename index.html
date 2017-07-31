@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+        	p,body,h1,h2,h3,h4,h5{
+        		margin: 5px 0;
+        	}
+			body{
+				width: 1000px;
+				margin: 0 auto;
+				font-size: 16px;
+			}
+        </style>
+    </head>
+    <body>
+    <h1>进行下列操作前，请先安装好node环境</h1>
+    <p><b>兼容性：</b>
+Vue.js 不支持 IE8 及其以下版本，因为 Vue.js 使用了 IE8 不能模拟的 ECMAScript 5 特性。 Vue.js 支持所有兼容 ECMAScript 5 的浏览器。</p>
+    <h3>vue-cli脚手架工具</h3>
+    <p style="background:#ccc"># 全局安装 vue-cli</p>
+    <p>npm install -g vue-cli</p>
+	<p>vue init &lt;template-name&gt; &lt;project-name&gt;	vue-cli脚手架的使用</p>
+	<p>ps:vue init webpack my-project</p>
+	<p>npm install     安装的依赖代码库</p>
+	<p>npm run dev		项目运行</p>
+	<p>npm install --production	安装生产环境</p>
+
+	<h3>项目文件介绍——一级目录</h3>
+	<p>build目录、cofig目录	webpack配置相关</p>
+	<p>node_modules	npm install 安装的依赖代码库</p>
+	<p>src				存放项目源码，开发的所有代码都在此</p>
+	<p>static			存放第三方静态资源</p>
+	<p>——.gitkeep		此文件代表目录为空也提交到git代码仓库（通常一个目录为空，.git会忽略该目录，不提交到代码仓库）</p>
+	<p>.babelrc		是babel的编译的配置，项目通常是es6代码，需要babel编译</p>
+	<p>.editorconfig	编辑器的配置</p>
+	<p>.eslintignore	忽略语法检查的目录文件</p>
+	<p>.eslintrc.js	eslint的配置文件</p>
+	<p>.gitignore		忽略的文件以及目录，不提交到git代码仓库</p>
+	<p>index.html		入口文件</p>
+	<p>package.json	项目的配置文件：一般用来描述一个项目，vue-cli填的一些信息；script可以配置一些脚本，执行命令；dependencies项目的依赖；devDependcies编译的依赖，这些代码在打包上线后是不存在的</p>
+
+	<p>webstorm的自动格式化  control + alt + L </p>
+	<h1>新手建议通过script标签引入html，按照官网过一遍</h1>
+	<p>ps:	&lt;script&nbsp;src="https://unpkg.com/vue"&gt;&lt;/script&gt;</p>
+    </body>
+</html>

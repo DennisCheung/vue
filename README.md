@@ -1,5 +1,6 @@
 # vue
 learn vue about some my notes
+<br>
 npm install -g vue-cli
 vue init <template-name> <project-name>	vue-cli脚手架的使用
 ps:vue init webpack my-project

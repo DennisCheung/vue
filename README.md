@@ -2,8 +2,9 @@
 learn vue about some my notes
 <br>
 npm install -g vue-cli
+<br>
   
-  vue init <template-name> <project-name>	vue-cli脚手架的使用
+  vue init <template-name> <project-name>	vue-cli脚手架的使用<br>
 ps:vue init webpack my-project
 npm install     安装的依赖代码库
 npm run dev		项目运行
